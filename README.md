@@ -29,7 +29,11 @@ root/ <br>
    git clone https://github.com/ginofazzi/A-Network-Approach-to-Understanding-Global-Trade-Vulnerabilities-and-Resilience.git
 
 2. Set up your environment <br>
-Refer to requirements.txt or follow environment setup instructions in the documentation.
+Using conda:
+   ```bash
+   conda env create -f environment.yml
+
+Or refer to requirements.txt to see list of required libraries.
 
 3. Obtain the data <br>
 Instructions to download and preprocess the required datasets are available in the thesis.

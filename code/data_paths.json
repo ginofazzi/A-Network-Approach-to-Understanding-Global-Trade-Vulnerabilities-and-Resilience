@@ -1,0 +1,10 @@
+{
+    "data": "../data",
+    "labels": "../data/5. Graphs Data/labels-affected_importers.csv",
+    "graphs_data": "../data/5. Graphs Data",
+    "atlas": "../data/2. Atlas",
+    "uncomtrade": "../data/1. UN Comtrade",
+    "baci": "../data/3. BACI",
+    "additional": "../data/4. Additional Data Sources",
+    "results": "./gnn/results/"
+}

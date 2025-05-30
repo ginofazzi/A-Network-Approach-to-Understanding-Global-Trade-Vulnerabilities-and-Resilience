@@ -1,0 +1,191 @@
+
+{
+    "MLP": {
+        "export": {
+            "hidden_channels": 64,
+            "lr": 0.00236,
+            "dropout": 0.18166
+        },
+        "total": {
+            "hidden_channels": 64,
+            "lr": 0.00374,
+            "dropout": 0.33366
+        },
+        "export-layered": {
+            "hidden_channels": 64,
+            "lr": 0.00331,
+            "dropout": 0.22830
+        },
+        "multi-graph-export": {
+            "hidden_channels": 128,
+            "lr": 0.00690,
+            "dropout": 0.2920
+        },
+        "multi-graph-total": {
+            "hidden_channels": 128,
+            "lr": 0.00793,
+            "dropout": 0.38448
+        }
+    },
+    "GCN": {
+        "export": {
+            "n_layers": 2,
+            "hidden_channels": 64,
+            "lr": 0.00234,
+            "weight_decay": 0.00136,
+            "dropout": 0.11582,
+            "optimizer": "AdamW"
+        },
+        "total": {
+            "n_layers": 2,
+            "hidden_channels": 64,
+            "lr": 0.00265,
+            "weight_decay": 0.00290,
+            "dropout": 0.17772,
+            "optimizer": "AdamW"
+        },
+        "export-layered": {
+            "n_layers": 2,
+            "hidden_channels": 32,
+            "lr": 0.00634,
+            "weight_decay": 0.00034,
+            "dropout": 0.11079,
+            "optimizer": "AdamW"
+        },
+        "multi-graph-export": {
+            "n_layers": 2,
+            "hidden_channels": 64,
+            "lr": 0.00872,
+            "weight_decay": 0.00233,
+            "dropout": 0.27889,
+            "optimizer": "AdamW"
+        },
+        "multi-graph-total": {
+            "n_layers": 2,
+            "hidden_channels": 128,
+            "lr": 0.00900,
+            "weight_decay": 0.00598,
+            "dropout": 0.18264,
+            "optimizer": "AdamW"
+        }
+    },
+    "GAT": {
+        "export": {
+            "n_layers": 2,
+            "hidden_channels": 128,
+            "heads": 4,
+            "lr": 0.001,
+            "weight_decay": 0.00741,
+            "dropout": 0.4,
+            "optimizer": "AdamW",
+            "bias": true,
+            "residual": true
+        },
+        "total": {
+            "n_layers": 2,
+            "hidden_channels": 128,
+            "heads": 8,
+            "lr": 0.0005,
+            "weight_decay": 0.00889,
+            "dropout": 0.6,
+            "optimizer": "AdamW",
+            "bias": false,
+            "residual": true
+        },
+        "export-layered": {
+            "n_layers": 3,
+            "hidden_channels": 128,
+            "heads": 8,
+            "lr": 0.01,
+            "weight_decay": 3.06454e-05,
+            "dropout": 0.4,
+            "optimizer": "Adagrad",
+            "bias": false,
+            "residual": true
+        },
+        "multi-graph-export" : {
+            "n_layers": 2,
+            "hidden_channels": 32,
+            "heads": 4,
+            "lr": 0.005,
+            "weight_decay": 0.00325,
+            "dropout": 0.8,
+            "optimizer": "AdamW",
+            "bias": true,
+            "residual": true
+        },
+        "multi-graph-total" : {
+            "n_layers": 3,
+            "hidden_channels": 32,
+            "heads": 8,
+            "lr": 0.001,
+            "weight_decay": 0.00650,
+            "dropout": 0.4,
+            "optimizer": "AdamW",
+            "bias": false,
+            "residual": true
+        }
+    },
+    "SAGE": {
+        "export": {
+            "n_layers": 2,
+            "hidden_channels": 128,
+            "lr": 0.00159,
+            "weight_decay": 0.00585,
+            "dropout": 0.11919,
+            "optimizer": "AdamW",
+            "aggr": "max",
+            "normalize": false,
+            "project": false,
+            "bias": true
+        },
+        "total": {
+            "n_layers": 3,
+            "hidden_channels": 128,
+            "lr": 0.00035,
+            "weight_decay": 0.00825,
+            "dropout": 0.10051,
+            "optimizer": "AdamW",
+            "aggr": "max",
+            "normalize": false,
+            "project": true,
+            "bias": true
+        },
+        "export-layered": {
+            "n_layers": 2,
+            "hidden_channels": 128,
+            "lr": 0.00946,
+            "weight_decay": 0.00010,
+            "dropout": 0.13724,
+            "optimizer": "Adagrad",
+            "aggr": "max",
+            "normalize": false,
+            "project": true,
+            "bias": false
+        },
+        "multi-graph-export": {
+            "n_layers": 1,
+            "hidden_channels": 64,
+            "lr": 0.00955,
+            "weight_decay": 0.00236,
+            "dropout": 0.46505,
+            "optimizer": "AdamW",
+            "aggr": "max",
+            "normalize": false,
+            "project": false,
+            "bias": true
+        },
+        "multi-graph-total": {
+            "n_layers": 3,
+            "hidden_channels": 16,
+            "lr": 0.005,
+            "weight_decay": 0.00635,
+            "dropout": 0.29302,
+            "optimizer": "AdamW",
+            "aggr": "max",
+            "normalize": false,
+            "project": false,
+            "bias": false
+        }
+    }
+}

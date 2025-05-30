@@ -18,7 +18,7 @@ root/ <br>
 └── README.md # Project overview and usage guide <br>
 
 
-> ⚠️ **Note:** The datasets are not included in this repository due to size constraints. However, all data sources are public. Detailed information on data collection and preparation can be found in the [thesis document](#).
+> ⚠️ **Note:** The datasets are not included in this repository due to size constraints. However, all data sources are public. Detailed information on data collection and preparation can be found in the [thesis document](#). Pre-processed data (e.g., graphs data) can be downloaded [here](https://drive.google.com/file/d/1YMAUwrQ1Qh7JIKm1lzjtED0fNzx9GPi8/view?usp=drive_link).
 
 ---
 

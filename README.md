@@ -26,10 +26,10 @@ root/ <br>
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/ginofazzi/A-Network-Approach-to-Understanding-Global-Trade-Vulnerabilities-and-Resilience.git
 
 2. Set up your environment
-Refer to requirements.txt (if available) or follow environment setup instructions in the documentation.
+Refer to requirements.txt or follow environment setup instructions in the documentation.
 
 3. Obtain the data
 Instructions to download and preprocess the required datasets are available in the thesis.

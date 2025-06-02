@@ -3,7 +3,7 @@
 
 This repository contains the codebase developed as part of my MSc thesis. The project investigates the structure and fragility of global trade networks using graph-based methods.
 
-📄 **Dissertation PDF**: [Link to Thesis](#)  
+📄 **Dissertation PDF**: [Link to Thesis](https://github.com/ginofazzi/A-Network-Approach-to-Understanding-Global-Trade-Vulnerabilities-and-Resilience/blob/main/A%20Network%20Approach%20to%20Understanding%20Global%20Trade%20Vulnerabilities%20and%20Resilience.pdf)  
 
 ---
 
